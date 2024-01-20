@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Zone with tailwindcss</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-Poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .bg-bike {
+            background: linear-gradient(90deg, #181818 0%, rgba(24, 24, 24, 0.82) 24.48%, rgba(24, 24, 24, 0.00) 100%), url(./images/others/banner.png)
+        }
+    </style>
+</head>
+
+<body class="font-Poppins">
+    <header class="bg-bike bg-center bg-no-repeat bg-cover bg-origin-border w-fit lg:w-screen">
+        <nav class="flex justify-between items-center container mx-auto px-6 lg:px-16 pt-14">
+            <h2 class="text-4xl font-bold text-white  ">
+                Arafat Ride
+            </h2>
+            <ul class="lg:flex items-center gap-10 text-base font-medium text-white hidden">
+                <li>Home</li>
+                <li>Shop</li>
+                <li>News</li>
+                <li>Contract</li>
+                <button class="bg-[#E76F51] rounded-md text-xl font-bold py-4 px-12">Login</button>
+            </ul>
+            <div class="lg:hidden">
+                <img src="./images/icons/menu-2 1.png" alt="">
+            </div>
+        </nav>
+        <div class="banner text-center lg:text-left lg:container lg:mx-auto px-6 lg:px-16 mt-12 lg:mt-36">
+            <h2 class="text-4xl lg:text-6xl leading-snug text-white font-bold lg:w-3/5 ">
+                Keep Your Ride Safe At Every Time
+            </h2>
+            <p class="text-base text-white font-light lg:w-1/2 mt-8">Amet minim mollit non deserunt ullamco est sit aliqua
+                dolor
+                do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                amet.</p>
+            <button
+                class="bg-[#E76F51] rounded-md text-xl text-white font-bold py-4 px-12 mt-10 mb-32">Purchase</button>
+        </div>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+</body>
+
+</html>
